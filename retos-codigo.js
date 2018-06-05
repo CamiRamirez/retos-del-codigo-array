@@ -17,13 +17,13 @@ for ( let i = 0; i < numbers.length; i++){
 console.log(filterOddElements[1, 2, 3, 4, 5]); */
 
 
-//2. COMPUTESUMOFALLELEMENTS
+//2. computeAverageLengthOfWords
 
-const computeSumOfAllElements = (string1, string2) => {
+const computeAverageLengthOfWords = (string1, string2) => {
   const output = (string1.length + string2.length)/2;
   return output;
 }
-console.log(computeSumOfAllElements('cami', 'ramirez'));
+console.log(computeAverageLengthOfWords('cami', 'ramirez'));
 
 
 // GETNTHELEMENT

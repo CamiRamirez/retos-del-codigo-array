@@ -26,7 +26,7 @@ const computeAverageLengthOfWords = (string1, string2) => {
 console.log(computeAverageLengthOfWords('cami', 'ramirez'));
 
 
-// GETNTHELEMENT
+// 3.GETNTHELEMENT
 
 const getNthElement = (arr, number) => {
   const output = arr[number];
@@ -34,3 +34,11 @@ const getNthElement = (arr, number) => {
 }
 console.log(getNthElement([1, 3, 5], 1));
 
+// 4. ComputeSumOfAllElement
+
+  function computeSumOfAllElements(add) {
+  const add = computeSumOfAllElements.reduce((previousValue, currentValue) => {
+    return previousValue + currentValue;
+    });
+  }
+  console.log(computeSumOfAllElements[1, 2, 3]);

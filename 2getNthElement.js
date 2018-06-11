@@ -1,7 +1,7 @@
+
 // GETNTHELEMENT (EJERCICIO NUMERO 2)
 
 const getNthElement = (arr, number) => {
-  const output = arr[number];
-  return output;
+  return output = arr[number];
 }
 console.log(getNthElement([1, 3, 5], 1));

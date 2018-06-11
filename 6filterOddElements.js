@@ -10,7 +10,6 @@ for (let i = 0; i < numbers.length; i++) {
 }
 //Funcion en proceso
 /* const filterOddElements = () => {
-  const output = filterOddElements.filter(number => number % 2 !== 0);
-  return output;
+ return output = filterOddElements.filter(number => number % 2 !== 0);
 }
 console.log(filterOddElements[1, 2, 3, 4, 5]); */

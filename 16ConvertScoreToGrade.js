@@ -17,7 +17,7 @@ function ConvertScoreToGrade(num) {
   if(num < 59 && num > 0){
     return "f";
   }
-  else {
+  else if ( num > 100 || num < 0) {
     return('PUNTUACION INVALIDA');
   }
 }
